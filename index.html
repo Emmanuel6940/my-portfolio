@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="leftSide">
+                <a href="#hero" class="active">Web Developer Emmanuel</a>
+            </div>
+            <div class="rightSide">
+                <a href="about">About</a>
+                <a href="portfolio">Portfolio</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="hero">
+        <div class="container">
+            <div class="leftSide">
+                <h1> Hello, <br> I am <span class="accent">Emmanuel</span><br> Web Developer!
+                </h1>
+                <button id="openModal" onclick="openModal()">Contact me</button>
+                <div class="social">
+                    <a href="/">
+                        <img src="images/Linkedin-svg.png" alt="Linkedin Logo">
+                    </a>
+                    <a href="/">
+                        <img src="images/github-svg.svg" alt="Github Logo">
+                    </a>
+                    <a href="/">
+                        <img src="images/youtube-svg.svg" alt="Youtube Logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="rightSide">
+            <div class="outer">
+                <img src="images/WhatsApp_Image_2025-10-03_at_19.49.06_38cfeb9e-removebg-preview.png" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About me</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Quaerat asperiores voluptatibus at magni beatae suscipit 
+                cum minus excepturi sequi. Modi cum quas doloremque soluta 
+                nesciunt error consequatur unde officiis sit.
+
+            </p>
+
+        </div>
+    </section>
+
+
+    <section id="porfolio">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="projects-container" id="projects-container">
+                <div class="projects-item">
+                    <div class="projects-image">
+                        <img src="" alt="project 1">
+                    </div>
+                </div>
+                <div class="projects-item">
+                    <div class="projects-image">
+                        <img src="" alt="project 1">
+                    </div>
+                </div>
+                <div class="projects-item">
+                    <div class="projects-image">
+                        <img src="" alt="project 1">
+                    </div>
+                </div>
+                <div class="projects-item">
+                    <div class="projects-image">
+                        <img src="" alt="project 1">
+                    </div>
+                </div>
+                <div class="projects-item">
+                    <div class="projects-image">
+                        <img src="" alt="project 1">
+                    </div>
+                </div>
+                <div class="projects-item">
+                    <div class="projects-image">
+                        <img src="" alt="project 1">
+                    </div>
+                </div>
+                <div class="projects-item">
+                    <div class="projects-image">
+                        <img src="" alt="project 1">
+                    </div>
+                </div>
+                <div class="projects-item">
+                    <div class="projects-image">
+                        <img src="" alt="project 1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>web developer emmanuel © 2024</footer>
+
+
+        <div id="modalOuter" class="closeModal">
+            <div class="container">
+                <h2>Contact Details</h2>
+                <hr />
+                <p><strong>Name:</strong>Emmanuel the dev</p>
+                <p><strong>Email:</strong>emmanuel@example.com</p>
+                <p><strong>Telephone:</strong>+1234567890</p>
+                <p><strong>Address:</strong>123 Main St, Anytown, USA</p>
+                <p><strong>CV:</strong><a href="cv.pdf" download>Download my CV</a></p>
+                <div class="xButton" onclick="closeModal()">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+</body>
+</html>
+
